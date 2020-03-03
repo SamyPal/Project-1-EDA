@@ -1,9 +1,5 @@
-Cookicutter Data Science Simplified
 
-This small project is meant to be a beginner's introduction to Cookiecutter Data Science.
-Just clone or download this repo and poke around a bit. 
-For the original and much more extensive version of Cookiecutter Data Science, see [here](https://drivendata.github.io/cookiecutter-data-science/).
-
+I completed this project as a part of my Metis Data Science Bootcamp in the second week of January. I also wrote a blog about the results of the project on my Github page here. But, now as a part of my relearning experience, I am looking back to see how I could have done things differently, with all that I have learned from my bootcamp as well as from my friends, since then. In this process, I also hope to capture EDA techniques and the best practices of coding that I may have missed initially.
 
 ```
 Template Organization
@@ -11,6 +7,7 @@ Template Organization
 .
 ├── README.md
 └── template_project
+ |── MTA_data_imported.ipynb
     ├── LICENSE.txt
     ├── README.txt
     ├── code
@@ -20,16 +17,15 @@ Template Organization
     │   ├── external
     │   ├── interim
     │   ├── processed
+     |			└── mta_full.csv
     │   └── raw
-    │       └── example_data.txt
+    │       
     ├── docs
-    ├── example_notebook.ipynb
+    ├── MTA_data_imported.ipynb
     ├── references
     └── reports
         └── figures
 ```
 
-
-
-Enjoy!    
-Erik Kristofer Anderson
+I hope you enjoy going through the project, as much as i did doing it. Have Fun,
+Samy Pal
