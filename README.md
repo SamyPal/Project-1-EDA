@@ -4,10 +4,8 @@ I completed this project as a part of my Metis Data Science Bootcamp in the seco
 ```
 Template Organization
 ---------------------
+├── MTA_data_imported.ipynb
 ├── README.md
-├── data
-│   ├── processed
-│   └── raw
 └── template_project
     ├── LICENSE.txt
     ├── MTA_data_imported.ipynb
